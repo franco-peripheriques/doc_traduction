@@ -1,5 +1,7 @@
 # Procédure (exemple avec le weather:bit)
 
+https://makecode.com/extensions/localization
+
 ## Copie (fork)
 
 - Dans le repo GitHub weather:bit original, faire un fork vers l'organisation franco-peripherique
@@ -28,6 +30,10 @@
 - Modifier les fichier dans fr
     - Traduire les blocs de code (weatherbit-strings.json) et et l'aide (weatherbit-jsdoc-strings.json)
     - Faire attention aux variables (% |); regarder les cas existants avant de précéder à la traduction, car le français demande d'inverser des expressions et de déplacer les variables
+    - Do not capitalize blocks;
+    - Do not translate %variable names;
+    - Do not reorder parameters;
+    - Maintain the same structure of | and %variables%;
     - Dans le fichier de commentaires weather-jsdoc-strings.json, s'il n'a pas de commentaire (aucun ligne clé:valeur), il faut créer une nouvelle ligne dans weather-jsdoc-strings.json et prendre le nom de la clé dans weather-strings.json pour créer une nouvelle paires clé:valeur ou "nom du bloc": "commentaire" dans weather-jsdoc-strings.json
 - Vérifier et sauvegarder
 - Enlever les fichiers .bak ou ~ (souvent des fichiers cachés)
