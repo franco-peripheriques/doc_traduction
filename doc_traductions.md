@@ -4,16 +4,18 @@
 
 - Dans le repo GitHub weather:bit original, faire un fork vers l'organisation franco-peripherique
 - Cloner le repo GitHub de franco-peripherique vers son ordi avec `git clone ssh/https`; il faut un lien ssh ou https
-- Sur l'ordi, dézipper le dossier pxt-weather-bit; cela crée un nouveau répertoire
+- Cela crée un nouveau répertoire
     - Ou, dans le terminal créer le répertoire avec `mkdir pxt-weather-bit` pour y sauvegarder les fichiers
-    - Bref, organiser les fichier dans un dossier pxt-weather-bit
+    - Bref, organiser les fichiers dans un dossier pxt-weather-bit
 - Dans le terminal, aller dans ce nouveau répertoire; lister les fichiers avec `ls`
 
 ## Préparation
 
+- Il faut installer pxt???
+
 - Préparer le répertoire pour travailler avec le micro:bit; lancer la commande `pxt target microbit`
 - Lancer la commande `pxt install`
-- Cela génèrera de nouveaux fichiers dans le répertoire
+- Cela génère de nouveaux fichiers dans le répertoire
 - Ajouter les fichiers de traduction avec `pxt gendocs --locs`; pour *localization*
 - Lancer `git status` pour voir les ajouts
 
@@ -21,6 +23,7 @@
 
 - Pour la suite, le travail dans le répertoire pxt-weather-bit peut être fait dans le terminal ou dans le sytème GUI
 - Dans les fichiers de traduction ou _locales, ajouter un dossier fr
+    - Il peut déjà y avoir des dossiers de traduction en d'autres langues que le français
 - Copier les fichiers de _locales dans dans le nouveau dossier fr
 - Modifier les fichier dans fr
     - Traduire les blocs de code (weatherbit-strings.json) et et l'aide (weatherbit-jsdoc-strings.json)
