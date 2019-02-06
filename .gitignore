@@ -1,5 +1,5 @@
-/frigo/
-/pxt*
+frigo/
+pxt*/
 *.txt
 *.pdf
 .gitignore
