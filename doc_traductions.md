@@ -1,6 +1,9 @@
 # Procédure (exemple avec le weather:bit)
 
-https://makecode.com/extensions/localization
+## Liens
+
+- [Traduction des extensions de MakeCode](https://makecode.com/extensions/localization)
+- [Notions de base sur GitHub](https://guides.github.com/activities/hello-world/)
 
 ## Copie (fork)
 
@@ -13,7 +16,7 @@ https://makecode.com/extensions/localization
 
 ## Préparation
 
-- Il faut installer pxt???
+- Il faut installer pxt??? Comment??? https://github.com/Microsoft/pxt
 
 - Préparer le répertoire pour travailler avec le micro:bit; lancer la commande `pxt target microbit`
 - Lancer la commande `pxt install`
@@ -51,7 +54,7 @@ https://makecode.com/extensions/localization
 - Revenir au terminal, vérifier le dossier avec `git status` pour voir les ajouts et changements
 - Ajouter avec `git add _locales/ pxt.json`; uniquement deux expressions et tout avec un `git add .`
 - Vérifier avec `git status`
-- Commettre avec `git commit -m "commit the first French translation v1"`
+- Commettre avec `git commit -m "commit French translation v1"`
 - Insérer la commande `pxt bump` pour gérer la version
 - Compléter l'envoie avec `git push`
 
