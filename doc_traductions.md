@@ -74,7 +74,7 @@
 - Confirmer avec le bouton Create pull request (seulement si les deux repos peuvent fusionner)
 - Commenter le travail: "Hi, We added a French translation to the package (localization files). We will follow up on the matter with someone at Microsoft for approval. Cheers"
 demander l'approbation, pull request, écrire un courriel
-- Appuer sur le bouton Create pull request
+- Appuyer sur le bouton Create pull request
 
 ## Approbation
 
